@@ -1,0 +1,21 @@
+/* Get a fancy font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/* Change header text to imported font */
+p {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.shiny-output-error-validation {
+    color: red;
+    font-size: 30px;
+}
+
+#message {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    overflow-y: scroll;
+    max-height: 100px;
+    background: ghostwhite;
+}

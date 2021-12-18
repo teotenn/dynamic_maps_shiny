@@ -1,0 +1,10 @@
+**/temp/
+*~
+\#*\#
+*.aux
+*.pdf
+*.log
+*.bbl
+*.bcf
+*.blg
+*.run.xml

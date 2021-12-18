@@ -1,0 +1,29 @@
+#+OPTIONS:    H:3 num:nil toc:2 \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:t d:(HIDE) tags:not-in-toc
+#+TITLE:    Dynamic maps Shiny App
+#+AUTHOR:    teoten
+#+EMAIL:     teoten@gmail.com
+#+LANGUAGE:   en
+
+My first personal Shiny app. Work in progress.
+*Version 0.1*
+
+** Overview
+The Shiny app loads the code in =setup.R= as source, an performs the actions in the GUI.
+
+The idea is to generate Dynamic Maps for any country, given dots per city, that grow or decreased based on the amount of lines containing the same city. 
+
+** Instructions
+Provide to the user table a list of cities and year of opening/inauguration as if each line is one organization. Then click *Get coords* and once the script has finished (one can see the log below) click *Make map*. 
+
+Once the map is shown, the user can slide the bar above it to select the year to visualize. Also an example can be selected and *Load* to memory to see how it should look like.
+
+*** NOTE  
+As for version 0.1, only one country per map is supported. Region also not working.
+
+** TO-DO
+   - [ ] Improve README file
+   - [ ] Improve css
+   - [ ] Allow support  using *Region*
+   - [ ] When coords missing, show a summary table
+   - [ ] In such cases, allow user to add coordinates manually
+   - [ ] Allow user to download resulted info as csv, for personal use in own scripts
