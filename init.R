@@ -1,4 +1,4 @@
-my_packages = c("RJSONIO", "tidyverse", "maps", "stringr", "ggplot2")
+my_packages = c("RJSONIO", "tidyverse", "maps", "stringr", "ggplot2", "rhandsontable")
 
 ###########################################################
 
